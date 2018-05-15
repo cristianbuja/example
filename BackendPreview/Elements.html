@@ -1,0 +1,10 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      xmlns:e="http://typo3.org/ns/Intera/Elements/ViewHelpers"
+      data-namespace-typo3-fluid="true">
+<br>
+<ol>
+    <f:for each="{e:elements(tt_content:uid)}" as="element">
+        <li>{element.header}</li>
+    </f:for>
+</ol>
+</html>
